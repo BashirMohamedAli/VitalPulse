@@ -33,7 +33,7 @@ npm -v
 1. **Clone the repository**
 
    ```bash
-   git clone <your-repo-url> VitalPulse
+   git clone https://github.com/BashirMohamedAli/VitalPulse.git
    cd VitalPulse
    ```
 
@@ -100,11 +100,6 @@ npm -v
 - **TypeScript-first**: Prefer adding/maintaining type definitions in `src/types.ts` (and related files).
  - **Components**: Keep components small and focused. Co-locate component-specific hooks and utilities in the same folder when it aids clarity.
 - **Styling**: Use the existing Tailwind design tokens and the `cn` helper where appropriate, instead of introducing ad-hoc class string concatenation.
-- **Security & privacy**:
-  - Do **not** commit real API keys, access tokens, or user data.
-  - Keep all secrets in `.env` or your local environment.
-  - If/when `SECURITY.md` is available, follow its guidelines strictly.
-
 ---
 
 ## Running in a clean state
