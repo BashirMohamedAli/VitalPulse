@@ -1,0 +1,6 @@
+{
+  "name": "VitalPulse",
+  "description": "A comprehensive mobile health monitoring system for tracking vitals, symptoms, and medication reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
